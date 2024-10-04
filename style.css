@@ -1,4 +1,4 @@
-/* Generale */
+/* General */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: #0073e6;
+    color: #e91e63;
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -18,18 +18,18 @@ input[type="text"] {
     width: 80%;
     padding: 10px;
     font-size: 1rem;
-    border: 2px solid #0073e6;
+    border: 2px solid #e91e63;
     border-radius: 5px;
     outline: none;
     transition: border 0.3s ease;
 }
 
 input[type="text"]:focus {
-    border-color: #005bb5;
+    border-color: #c2185b;
 }
 
 button {
-    background-color: #0073e6;
+    background-color: #e91e63;
     color: white;
     padding: 10px 20px;
     font-size: 1rem;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #005bb5;
+    background-color: #c2185b;
 }
 
 ul {
@@ -51,15 +51,24 @@ ul {
 }
 
 li {
-    background-color: #e0f7fa;
+    background-color: #fce4ec;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #0073e6;
+    border: 1px solid #e91e63;
     border-radius: 5px;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     transition: background-color 0.3s ease;
 }
 
 li:hover {
-    background-color: #b2ebf2;
+    background-color: #f8bbd0;
+}
+
+li button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
 }
